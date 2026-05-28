@@ -1,15 +1,14 @@
-import { useState } from "react";
-import Toggle from "./Toggle.jsx";
+import Profile from './components/Profile';
+import MathFacts from './components/MathFacts';
+import TimeGreeting from './components/TimeGreeting';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <h1>Hello Reacts</h1>
-      <button onClick={() => setCount(count + 1)}>Count is {count}</button>
-      <input type="checkbox" /> <Toggle label="Dark mode" />
-    </div>
+    <>
+      <Profile />
+      <MathFacts />
+      <TimeGreeting />
+    </>
   );
 }
 
