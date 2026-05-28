@@ -4,6 +4,10 @@ import TimeGreeting from './components/TimeGreeting';
 import SkillsList from './components/SkillsList';
 import UserCard from './components/UserCard';
 import StatCard from './components/StatCard';
+import Counter from './components/Counter';
+import Toggle from './components/Toggle';
+import TextInput from './components/TextInput';
+import ColorPicker from './components/ColorPicker';
 
 function App() {
   return (
@@ -30,6 +34,10 @@ function App() {
       <StatCard label="Number 1" value="41" />
       <StatCard label="Number 2" value="42" />
       <StatCard label="Number 3" value="43" />
+      <Counter />
+      <Toggle />
+      <TextInput />
+      <ColorPicker />
     </>
   );
 }
