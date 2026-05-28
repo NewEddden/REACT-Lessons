@@ -1,9 +1,9 @@
-function Profile() {
+function Profile({ name, title, bio }) {
   return (
     <>
-      <h1>Edly Cenatus</h1>
-      <p>Direct Support Professional</p>
-      <p>My name is Edly and I'm learning react.</p>
+      <h1>{name}</h1>
+      <p>{title}</p>
+      <p>{bio}</p>
     </>
   );
 }
