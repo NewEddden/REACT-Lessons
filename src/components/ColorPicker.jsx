@@ -18,13 +18,13 @@ function ColorPicker() {
         }}
       ></div>
       <button style={{ color: 'red' }} onClick={() => HandleColor('red')}>
-        Color me Red
+        Red
       </button>
       <button style={{ color: 'blue' }} onClick={() => HandleColor('blue')}>
-        Color me Blue
+        Blue
       </button>
       <button style={{ color: 'green' }} onClick={() => HandleColor('green')}>
-        Color me Green
+        Green
       </button>
     </>
   );
