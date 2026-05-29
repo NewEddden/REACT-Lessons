@@ -8,6 +8,10 @@ import Counter from './components/Counter';
 import Toggle from './components/Toggle';
 import TextInput from './components/TextInput';
 import ColorPicker from './components/ColorPicker';
+import FavoriteColor from './components/FavoriteColor';
+import ScoreBoard from './components/ScoreBoard';
+import AccordionItem from './components/AccordionItem';
+import List from './components/List';
 
 const cardStyle = {
   background: 'var(--color-bg, #fff)',
@@ -110,6 +114,18 @@ function App() {
 
       <Card label="Color Pickers">
         <ColorPicker />
+      </Card>
+      <Card label="New">
+        <FavoriteColor />
+      </Card>
+      <Card label="New">
+        <ScoreBoard />
+      </Card>
+      <Card label="New">
+        <AccordionItem />
+      </Card>
+      <Card label="New">
+        <List />
       </Card>
       <Card label="New"></Card>
     </div>
