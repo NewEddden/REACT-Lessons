@@ -22,8 +22,18 @@ function TemperatureConverter() {
         value={temp}
         onChange={(e) => setTemp(e.target.value)}
       />
-      <button onClick={() => setUnit("C")}>Input is °C</button>
-      <button onClick={() => setUnit("F")}>Input is °F</button>
+      <button
+        onClick={() => setUnit("C")}
+        style={{ fontWeight: unit === "C" ? "bold" : "normal" }}
+      >
+        Input is °C
+      </button>
+      <button
+        onClick={() => setUnit("F")}
+        style={{ fontWeight: unit === "F" ? "bold" : "normal" }}
+      >
+        Input is °F
+      </button>
       <p>{getResult()}</p>
     </>
   );
