@@ -3,6 +3,7 @@ import MyButton from "./components/MyButton";
 import MyProp from "./components/MyProp";
 import Boolean from "./components/Boolean";
 import LikeButton from "./components/LikeButton";
+import TemperatureConverter from "./components/TemperatureConverter";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <MyProp name="Edly Cenatus" title="Direct Support Professional" />
       <Boolean />
       <LikeButton />
+
+      <TemperatureConverter />
     </>
   );
 }
