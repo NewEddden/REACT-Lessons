@@ -4,6 +4,7 @@ import MyProp from "./components/MyProp";
 import Boolean from "./components/Boolean";
 import LikeButton from "./components/LikeButton";
 import TemperatureConverter from "./components/TemperatureConverter";
+import CharacterCounter from "./components/CharacterCounter";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <LikeButton />
 
       <TemperatureConverter />
+      <CharacterCounter />
     </>
   );
 }
