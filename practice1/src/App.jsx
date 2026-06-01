@@ -5,7 +5,7 @@ import Boolean from "./components/Boolean";
 import LikeButton from "./components/LikeButton";
 import TemperatureConverter from "./components/TemperatureConverter";
 import CharacterCounter from "./components/CharacterCounter";
-
+import Nav from "./components/Nav";
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
 
       <TemperatureConverter />
       <CharacterCounter />
+      <Nav />
     </>
   );
 }
