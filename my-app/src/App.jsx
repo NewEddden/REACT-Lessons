@@ -12,6 +12,13 @@ import FavoriteColor from './components/FavoriteColor';
 import ScoreBoard from './components/ScoreBoard';
 import AccordionItem from './components/AccordionItem';
 import List from './components/List';
+import MyButton from './components/MyButton';
+import MyProp from './components/MyProp';
+import Boolean from './components/Boolean';
+import LikeButton from './components/LikeButton';
+import TemperatureConverter from './components/TemperatureConverter';
+import CharacterCounter from './components/CharacterCounter';
+import Nav from './components/Nav';
 
 const cardStyle = {
   background: 'var(--color-bg, #fff)',
@@ -126,6 +133,30 @@ function App() {
       </Card>
       <Card label="New">
         <List />
+      </Card>
+      <Card label="New">
+        <List />
+      </Card>
+      <Card label="New">
+        <MyButton />
+      </Card>
+      <Card label="New">
+        <MyProp name="Edly Cenatus" title="Direct Support Professional" />
+      </Card>
+      <Card label="New">
+        <Boolean />
+      </Card>
+      <Card label="New">
+        <LikeButton />
+      </Card>
+      <Card label="New">
+        <TemperatureConverter />
+      </Card>
+      <Card label="New">
+        <CharacterCounter />
+      </Card>
+      <Card label="New">
+        <Nav />
       </Card>
       <Card label="New"></Card>
     </div>
