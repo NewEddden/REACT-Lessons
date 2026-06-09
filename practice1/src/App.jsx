@@ -6,6 +6,7 @@ import LikeButton from "./components/LikeButton";
 import TemperatureConverter from "./components/TemperatureConverter";
 import CharacterCounter from "./components/CharacterCounter";
 import Nav from "./components/Nav";
+import Counter from "./components/Counter";
 function App() {
   return (
     <>
@@ -18,6 +19,9 @@ function App() {
       <TemperatureConverter />
       <CharacterCounter />
       <Nav />
+      <Nav />
+      <Nav />
+      <Counter />
     </>
   );
 }
